@@ -58,7 +58,8 @@ public class WiseSayingController {
         String html = markdownService.toHtml(wiseSaying.getContent());
 
         return """
-                <h1>명언 : %s</h1>
+                <h1>명언 본문</h1>
+                
                 <div>번호 : %d</div>
                 <div>작가 : %s</div>
                 <div>%s</div>
